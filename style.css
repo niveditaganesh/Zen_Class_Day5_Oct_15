@@ -1,0 +1,166 @@
+body {
+    margin: 30px 180px 30px 180px;
+    padding: 20px;
+    border-style: double;
+    border-width: heavy;
+    border-color: lightseagreen;
+}
+
+.icon>i {
+    border: 3px dotted orange;
+    border-radius: 50%;
+    background-color: grey;
+    font-size: 30px;
+    padding: 10px;
+    color: goldenrod
+}
+
+.icon>h2 {
+    display: inline !important;
+}
+
+#briandudely {
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    z-index: 1000;
+    top: 225px;
+    left: 610px;
+}
+
+#address {
+    position: relative;
+    left: 150px;
+}
+
+td>input[type=range]::-ms-track {
+    width: 300px;
+    height: 5px;
+    background: transparent;
+    border-color: transparent;
+    border-width: 6px 0;
+    color: transparent;
+}
+
+td>input[type=range]::-ms-fill-lower {
+    background: rgb(230, 205, 174);
+    border-radius: 10px;
+}
+
+td>input[type=range]::-ms-fill-upper {
+    background: rgb(231, 153, 37);
+    border-radius: 10px;
+}
+
+td>input[type=range]::-ms-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: goldenrod;
+}
+
+td>input[type=range] {
+    -webkit-appearance: none;
+}
+
+td>input[type="range"]::-webkit-slider-runnable-track {
+    background: orange;
+    width: 300px;
+    height: 5px;
+    border: none;
+}
+
+td>input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid black;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: honeydew;
+    margin-top: -4px;
+}
+
+td>input[type=range]:focus {
+    outline: none;
+}
+
+td>input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
+
+.partition>h4 {
+    display: inline;
+}
+
+.item1 {
+    grid-area: header;
+}
+
+.item2 {
+    grid-area: row1;
+}
+
+.item3 {
+    grid-area: row3;
+}
+
+.item4 {
+    grid-area: row4;
+}
+
+.center {
+    margin: 0px auto;
+    text-align: left;
+}
+
+.partition {
+    column-count: 2;
+    column-gap: 80px;
+    column-rule-style: solid;
+    padding: 0;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+td>ul>li {
+    line-height: 1.6;
+}
+
+#steve {
+    border: 5px dotted orange;
+    border-radius: 50%;
+}
+
+#profile {
+    border: 5px dotted orange;
+    border-radius: 50%;
+}
+
+#work {
+    border: 5px dotted orange;
+    border-radius: 50%;
+}
+
+.image {
+    display: inline
+}
+
+#top {
+    display: grid;
+    grid-template-areas:
+        "header header header header header header"
+        "row1 row1 row1 row1 row1 row1"
+        "row2 row2 row2 row2 row2 row2";
+
+    background-color: WhiteSmoke;
+
+    grid-gap: 30px;
+    grid-template-rows: 200px 20px;
+}
+
+#top>div {
+    background-color: DimGrey;
+    text-align: center;
+    padding: 30px 0;
+}
